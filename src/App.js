@@ -42,9 +42,9 @@ class App extends Component {
         <h2 onClick={(e) => this.setActive(2, e)}>3</h2>
 
         <h1>Result</h1>
-        <ColoredText isActive={this.state.active[0]} label="1" color={this.state.someColor}/>
-        <ColoredText isActive={this.state.active[1]} label="2" color={this.state.someColor}/>
-        <ColoredText isActive={this.state.active[2]} label="3" color={this.state.someColor}/>
+        <ColoredText isColored={this.state.active[0]} label="1" color={this.state.someColor}/>
+        <ColoredText isColored={this.state.active[1]} label="2" color={this.state.someColor}/>
+        <ColoredText isColored={this.state.active[2]} label="3" color={this.state.someColor}/>
       </div>
     );
   }
