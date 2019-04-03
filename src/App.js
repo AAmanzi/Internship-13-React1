@@ -6,7 +6,6 @@ class App extends Component {
     super(props);
 
     this.state = {
-      someColor: "black",
       active: [false, false, false],
     }
   }
